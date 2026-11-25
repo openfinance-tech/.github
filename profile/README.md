@@ -33,6 +33,10 @@
 claude mcp add --transport http openfinance-tech https://api.openfinance.tech/agent/mcp
 ```
 
+```bash
+npx skills add openfinance-tech/skills -y
+```
+
 <p><a href="https://cursor.com/en/install-mcp?name=openfinance-tech&config=eyJ1cmwiOiJodHRwczovL2FwaS5vcGVuZmluYW5jZS50ZWNoL2FnZW50L21jcCJ9"><img alt="Add to Cursor" src="https://cursor.com/deeplink/mcp-install-dark.svg" height="32" /></a>&nbsp;<a href="https://insiders.vscode.dev/redirect/mcp/install?name=openfinance-tech&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.openfinance.tech%2Fagent%2Fmcp%22%7D"><img alt="Install in VS Code" src="https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=for-the-badge" height="32" /></a></p>
 
 Claude.ai, ChatGPT and other clients: add `https://api.openfinance.tech/agent/mcp` as a custom connector and sign in. [Setup for every client →](https://github.com/openfinance-tech/mcp#install-in-your-ai-client)
@@ -65,6 +69,7 @@ Apps from the [OpenFinance blueprint gallery](https://openfinance.tech/mainframe
 | Repo | What it is |
 |---|---|
 | [**mcp**](https://github.com/openfinance-tech/mcp) | The OpenFinance MCP server: setup for every AI client, the tool reference, safety notes |
+| [**polymarket-mcp**](https://github.com/openfinance-tech/polymarket-mcp) | How to research and trade Polymarket from Claude, ChatGPT, Grok, Cursor and others, with example configs |
 | [**skills**](https://github.com/openfinance-tech/skills) | Agent skills for Polymarket, Hyperliquid, Relay, onchain tokens and launches: `npx skills add openfinance-tech/skills -y` |
 | [**self-hosted-perp-dex**](https://github.com/openfinance-tech/self-hosted-perp-dex) | A Hyperliquid perp DEX with an AI agent that you deploy yourself, running on one OpenFinance key |
 
